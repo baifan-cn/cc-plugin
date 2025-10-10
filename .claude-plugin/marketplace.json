@@ -1,13 +1,13 @@
 {
-  "name": "cc-plugin",
+  "name": "tokenroll-cc-plugin",
   "owner": {
-    "name": "TokenRoll Team",
-    "email": "team@tokenroll.ai"
+    "name": "TokenRoll",
+    "email": "shuaiqijianaho@qq.com"
   },
   "description": "TokenRoll internal Claude Code plugin marketplace",
   "plugins": [
     {
-      "name": "tokenroll-std",
+      "name": "tr",
       "source": "./",
       "description": "TokenRoll custom commands and agents for Claude Code"
     }
