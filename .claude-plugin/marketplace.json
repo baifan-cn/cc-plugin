@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "tokenroll-std",
-      "source": ".",
+      "source": "./",
       "description": "TokenRoll custom commands and agents for Claude Code"
     }
   ]
