@@ -65,9 +65,9 @@ Sub-agent 执行大量读取 → 提供精简总结 → 主 agent 保持清爽
 
 ```bash
 # 添加 TokenRoll 插件市场
-/plugin marketplace add TokenRollAI/cc-plugin
+/plugin marketplace add https://github.com/TokenRollAI/cc-plugin
 
-# 安装插件
+# 下载tr插件
 /plugin install tr@cc-plugin
 ```
 

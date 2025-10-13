@@ -61,11 +61,11 @@ Sub-agent performs heavy reads → Delivers concise summaries → Main agent sta
 
 ### Installation
 
-Run these commands in Claude Code:
+Run this command in Claude Code:
 
 ```bash
 # Add the TokenRoll plugin marketplace
-/plugin marketplace add TokenRollAI/cc-plugin
+/plugin marketplace add https://github.com/TokenRollAI/cc-plugin
 
 # Install the plugin
 /plugin install tr@cc-plugin
