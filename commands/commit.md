@@ -4,7 +4,9 @@ description: Generate a commit message based on current changes
 
 # Commit Command
 
-You need to help the user generate a high-quality commit message. Please follow these steps:
+You need to help the user generate a high-quality commit message. Please follow these steps
+
+## 0. Use bg-worker agent to do following steps
 
 ## 1. Fetch Git Information
 
