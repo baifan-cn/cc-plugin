@@ -1,7 +1,7 @@
 ---
 name: bg-worker
 description: Executes simple, well-defined, sequential tasks that require minimal reasoning. Ideal for file operations (read, summarize, rename), simple Git commands, or data extraction where the execution steps are explicitly provided by the calling agent.
-tools: [Bash, Read, Write, Edit, Grep, Glob, WebFetch]
+tools: Bash, Read, Write, Edit, Grep, Glob, WebSearch, WebFetch
 model: haiku
 color: pink
 ---
