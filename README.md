@@ -37,7 +37,7 @@
    /withScout xxx(your task)
    ```
 
-### (Optional) Install CCR: Power SubAgent with GLM4.6
+### (Recommend!) Install CCR: Power SubAgent with GLM4.6
 
 [Reference](https://github.com/musistudio/claude-code-router)
 
