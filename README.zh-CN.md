@@ -37,7 +37,7 @@
    /withScout xxx(你要做的任务)
    ```
 
-### (可选) 安装 CCR: 使用 GLM4.6 驱动 SubAgent
+### (强烈推荐) 安装 CCR: 使用 GLM4.6 驱动 SubAgent
 
 [参考](https://github.com/musistudio/claude-code-router)
 
