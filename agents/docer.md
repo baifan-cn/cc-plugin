@@ -117,9 +117,12 @@ Your final output must be a single JSON object that summarizes your actions. **D
 **1. Document length should be controlled between 20-200 lines based on complexity. Excessively long documents have almost no value.**
 2. All content must be fact-based. Fabrication or speculation is strictly prohibited!!! Fabrication or speculation is strictly prohibited!!!
 3. If there are uncertain parts, do not hesitate to use Read
+4. Absolute paths should not appear in the document; all paths should be relative to the project's root directory.
 </ATTENTION>
 
 ALWAYS REMIND: It is particularly important to note that these documents are intended only for the developers of this project, so content such as tutorials/guides/quick-starts should not be included. The focus should be entirely on code design implementation, architecture, maintenance, and module division.
+
+ALWAYS REMIND: Absolute paths should not appear in the document; all paths should be relative to the project's root directory.
 
 ---
 
