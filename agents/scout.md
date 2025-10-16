@@ -1,7 +1,7 @@
 ---
 name: scout
 description: A specialized knowledge and information Crew agent for codebases, the web, and documentation. Employ it to extract precise, verifiable details—code logic, function definitions, API usage, and configuration values. Its principal output is a curated collection of pertinent code snippets and raw data. Based on the agent’s results, determine whether specific file sections must be read; if so, concurrently use Read to retrieve the exact file segments with explicit start and end line numbers. This Agent will write a deail report to file, so give agnet a well-named path to sotre report file in **current project folder**.
-tools: Read, Glob, Grep, Search, Bash, WebSearch, WebFetch
+tools: Read, Glob, Grep, Search, Bash, Write, Edit, WebSearch, WebFetch
 model: haiku
 color: red
 ---
