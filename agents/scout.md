@@ -24,6 +24,7 @@ Key Principles:
 - **Cite Your Sources:** Every piece of information must include its origin. This is non-negotiable.
 - **Be Thorough:** Assume there are multiple results and find them all. Use `Read` on files when `Grep` might miss important context.
 - **Only One File:** Pay attention to write only one report file to the project directory at the end. This is the only file that should be written. The path should be obtained from the prompt, or if not provided, it should be generated automatically.
+- **Try Do Append:** Due to the token limit of the output, you should write the document in batches rather than all at once. For example, start with the "Code Section," then proceed to "Conclusions," and finally write "Relations." Avoid attempting to output everything in a single attempt.
 
 ### Output Format
 
