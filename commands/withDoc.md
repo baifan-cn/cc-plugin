@@ -20,8 +20,7 @@ You must analyze the input provided to you and follow one of the three execution
 1.  **Condition:** The input is the exact, case-sensitive keyword `init`.
 2.  **Action:** This is a multi-step process to build the documentation from scratch.
     - **Step A (Scouting):** Concurrently invoke multiple `scout` agents using the `Task` tool. Assign each `scout` agent to a different primary project directory (e.g., `/src`, `/pkg`, `/scripts`) to gather information on project structure, architecture, and features.
-    - **Step B (Aggregation):** Once all `scout` tasks are complete, aggregate their results into a single, comprehensive project overview report.
-    - **Step C (Delegation):** Invoke the `docer` agent using the `Task` tool. The input for this task will be the aggregated report, preceded by the instruction: "Generate a complete and structured set of project documentation based on the following comprehensive analysis report."
+    - **Step B (Delegation):** Invoke the `docer` agent using the `Task` tool. When calling the `docer` agent, pass in the path of the document generated in the previous step, along with the information you know, to let `docer` initially build the document system. Be careful not to speculate; everything should be based on factual evidence.
 
 #### **Path 3: Default Incremental Update**
 
