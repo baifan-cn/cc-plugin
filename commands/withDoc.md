@@ -26,6 +26,4 @@ You must analyze the input provided to you and follow one of the three execution
 
 1.  **Condition:** If neither Path 1 nor Path 2 conditions are met.
 2.  **Action:**
-    - Assume the input is a `git diff` or a similar summary of recent code changes.
-    - Use the `Task` tool to invoke the `docer` agent.
-    - Pass the provided code change information directly as the input.
+    - Use the Docker agent directly and ask it to obtain recent code changes based on git diff. If you have written code, briefly explain the reason for the changes and the approach, ensuring it is **described simply**.
