@@ -2,6 +2,15 @@
 description: Use scout agent to gather information and then proceed with the task
 ---
 
+## Usage
+
+`/bf:withScout <TASK_DESCRIPTION> --ultrathink`
+
+## Context
+
+- Task description: $ARGUMENTS
+- Relevant code or files will be referenced ad-hoc using @ file syntax.
+
 This command is designed to tackle complex tasks through a structured exploration framework. It emphasizes meticulous **planning** before action, efficient information gathering via **parallel** `scout` agents, and a gradual approach to the final solution through **iteration**.
 
 ### Core Philosophy

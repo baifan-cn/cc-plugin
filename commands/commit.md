@@ -7,6 +7,15 @@ description: Generate a commit message based on current changes
 
 You need to help the user generate a high-quality commit message. Please strictly follow the process below to ensure each commit addresses only one thing (single responsibility) and that branch logic is clear:
 
+## Usage
+
+`/bf:commit <TASK_DESCRIPTION> --ultrathink`
+
+## Context
+
+- Task description: $ARGUMENTS
+- Relevant code or files will be referenced ad-hoc using @ file syntax.
+
 ## 0. Use the bg-worker agent to perform the following steps
 
 ## 1. Fetch Git Information
