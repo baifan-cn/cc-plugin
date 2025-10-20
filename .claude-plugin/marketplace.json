@@ -1,15 +1,15 @@
 {
-  "name": "tokenroll-cc-plugin",
+  "name": "baifan-cc-plugin",
   "owner": {
-    "name": "TokenRoll",
-    "email": "shuaiqijianaho@qq.com"
+    "name": "BaiFan",
+    "email": "fanbai.home@gmail.com"
   },
-  "description": "TokenRoll internal Claude Code plugin marketplace",
+  "description": "BaiFan internal Claude Code plugin marketplace",
   "plugins": [
     {
-      "name": "tr",
+      "name": "bf",
       "source": "./",
-      "description": "TokenRoll custom commands and agents for Claude Code"
+      "description": "BaiFan custom commands and agents for Claude Code"
     }
   ]
 }

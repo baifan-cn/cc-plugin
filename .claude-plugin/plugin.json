@@ -1,8 +1,8 @@
 {
-  "name": "tr",
-  "description": "TokenRoll standard Claude Code plugin for internal team use",
+  "name": "bf",
+  "description": "BaiFan standard Claude Code plugin for internal team use",
   "version": "1.0.19",
   "author": {
-    "name": "DJJ & Danniel"
+    "name": "bf"
   }
 }
